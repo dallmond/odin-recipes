@@ -1,13 +1,42 @@
-.index {
-    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+* {
+    box-sizing: border-box;
+}
+
+.index-background {
+    background-color: rgb(30, 39, 62);
+}
+
+div {
+    margin: 30px auto;    
+    width: 800px;
+    background-color: rgba(48, 66, 102, 0.468);
+    padding: 15px 30px;
+    border: white solid 1px;
+
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background-color: cornflowerblue;
+    font-size: 50px;
+    border-bottom: white solid 5px;
 }
 
 ul,
 ol {
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+.index-list {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+a,
+a:visited {
+    color: white;
 }
 
 h1 {
